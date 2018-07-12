@@ -24,3 +24,6 @@ python amr_downloader.py --help
 
 The script can be run without any paramters, it will read the accessions from the `ncbi_accessions.txt` file and store the results in the `files` directory.
 If for some reason the process is interrupted, you can provide also a `first_acc` argument to start the extraction process from the corresponding accession.
+
+## AMR json-schema
+A draft of the json-schema for AMR data is available [here](https://jsonschemalint.com/#/version/draft-06/markup/json?gist=edcb93c81a6c9ee08bdf54ade4fd8f49)
